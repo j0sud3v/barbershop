@@ -1,2 +1,32 @@
-# barbershop
-Aplicación web moderna para una barbería, desarrollada con enfoque en experiencia de usuario, diseño responsive y funcionalidades reales de negocio. El proyecto permite a los clientes explorar servicios, reservar citas y contactar fácilmente con la barbería, mientras que el administrador puede gestionar información y autenticación de usuarios.
+# Barber Shop Web App
+
+Modern full stack barber shop web application focused on appointment booking, authentication, and responsive user experience.
+
+## Features
+
+- User authentication with JWT
+- Email verification system
+- Appointment scheduling
+- Responsive UI
+- Animated interface with Framer Motion
+- REST API integration
+
+## Tech Stack
+
+Frontend:
+- React
+- TypeScript
+- Styled Components
+- Framer Motion
+
+Backend:
+- Node.js
+- Express
+- MongoDB
+
+## Installation
+
+```bash
+git clone <repo>
+npm install
+npm run dev
