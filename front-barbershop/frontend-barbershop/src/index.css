@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'diploma';
+  src: url('/src/assets/fonts/diploma.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ff-fors';
+  src: url('/src/assets/fonts/tt_fors_trial_demibold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'anthelion';
+  src: url('/src/assets/fonts/anthelion.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+.diploma {
+  font-family: 'diploma', sans-serif;
+}
+
+.ff-fors {
+  font-family: 'ff-fors', sans-serif;
+}
+
+.anthelion {
+  font-family: 'anthelion', sans-serif;
+
+}
+
+.no-scroll {
+  overflow-x: hidden !important;
+  padding-right: 0px; /* Previene el salto de la barra de scroll */
+}
